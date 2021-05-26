@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "antlr4ts": "antlr4ts -visitor ./src/app/antlr/Risc16.g4"
   },
   "private": true,
   "dependencies": {
@@ -16,9 +17,11 @@
     "@angular/compiler": "~11.2.11",
     "@angular/core": "~11.2.11",
     "@angular/forms": "~11.2.11",
+    "@angular/material": "^11.2.12",
     "@angular/platform-browser": "~11.2.11",
     "@angular/platform-browser-dynamic": "~11.2.11",
     "@angular/router": "~11.2.11",
+    "antlr4ts": "^0.5.0-alpha.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
@@ -29,6 +32,7 @@
     "@angular/compiler-cli": "~11.2.11",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "antlr4ts-cli": "^0.5.0-alpha.4",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
